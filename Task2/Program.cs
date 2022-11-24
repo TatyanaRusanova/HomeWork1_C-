@@ -4,7 +4,19 @@
 //a = -9 b = -3 -> max = -3
 
 int numA = 5;
-Console.WriteLine("numA");
+Console.WriteLine(numA);
 
 int numB = 7;
-Console.WriteLine("numB");
+Console.WriteLine(numB);
+ if(numA > numB)
+ {
+    Console.WriteLine("Максимальное число: ");
+    Console.WriteLine(numA);
+    
+ }
+ else
+ {
+    Console.WriteLine("Максимальное число: ");
+    Console.WriteLine(numB);
+    
+ }
